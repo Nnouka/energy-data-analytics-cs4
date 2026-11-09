@@ -1,0 +1,63 @@
+All facilities: 4938  | candidates (No/Off-grid, ERT=No): 1559
+
+RWI source for pool: {'pixel': 1524, 'district_median': 35}
+
+Region shares: {'Central': 24.0, 'Eastern': 24.2, 'Northern': 25.6, 'Western': 26.2}
+
+Pool by region: {'Western': 504, 'Northern': 414, 'Eastern': 344, 'Central': 297}
+
+Route: {'grid extension': 1365, 'solar + battery': 183, 'solar + battery (minigrid nearby)': 11}
+
+Spearman correlation between lens ranks:
+            rank_P  rank_B  rank_R  rank_final
+rank_P        1.00    0.84    0.93        0.95
+rank_B        0.84    1.00    0.81        0.96
+rank_R        0.93    0.81    1.00        0.93
+rank_final    0.95    0.96    0.93        1.00
+
+Top 100: final shares with P 74, B 58, R 71;  P and B overlap 33
+
+Top 300: final shares with P 256, B 222, R 244;  P and B overlap 178
+
+Top 500: final shares with P 448, B 416, R 414;  P and B overlap 365
+
+Top 15 districts:
+DISTRICT   region  candidates    pop  mean_final  in_top500  mean_rwi  mean_km_grid
+   Yumbe Northern          35 265216        0.70         24      0.20          1.30
+    Arua Northern          46 222182        0.55         19     -0.07          5.70
+ Mubende  Central          26 204301        0.67         17     -0.30          2.22
+Kamwenge  Western          25 162382        0.64         13     -0.22          1.08
+Kiruhura  Western          28 125668        0.53         13     -0.25          1.08
+    Oyam Northern          18 161065        0.75         12     -0.23          2.28
+Isingiro  Western          32 160857        0.59         12     -0.27          1.66
+   Nebbi Northern          12 127436        0.84         11     -0.15          4.39
+  Kitgum Northern          19 129945        0.66         11     -0.22          2.50
+  Kasese  Western          57 198289        0.48         11     -0.20          1.98
+  Koboko Northern          12 108742        0.79         10     -0.14          2.01
+Ntungamo  Western          39 165363        0.38         10     -0.12          0.96
+Kyegegwa  Western           9 138827        0.92          9     -0.31          1.22
+  Amudat Northern           9  76128        0.77          8     -0.11          7.39
+  Dokolo Northern          12  81010        0.71          8     -0.23          2.45
+
+Top 20 facilities:
+ rank_final                              FACILITY_N  LEVEL    DISTRICT ELECTRIFIC   pop   rwi  km_grid           route  rank_P  rank_B  rank_R
+          1                            Buvuma HC IV  HC IV      Buvuma   Off-grid 19604 -0.12    14.67 solar + battery      21       1       8
+          2                          Kigambo HC III HC III    Kyegegwa   Off-grid 21752 -0.36     0.01  grid extension      12       3      25
+          3 Showers Foundation Health Centre HC III HC III       Nebbi   Off-grid 19947 -0.27     0.07  grid extension      16       4      22
+          4                           Kiriki HC III HC III       Kween   Off-grid 15604 -0.43    10.64 solar + battery      27       9      15
+          5                            Amugu HC III HC III    Alebtong   Off-grid 17731 -0.02     0.18  grid extension      32       5      46
+          6                            Aliapi HC II  HC II       Yumbe   Off-grid 38327  0.18     1.00  grid extension       1      42       2
+          7                          Kambugu HC III HC III      Kiboga   Off-grid 16319 -0.03     0.01  grid extension      50       6      20
+          8                    Alito Medical Clinic Clinic      Kitgum   Off-grid 21789 -0.16     0.03  grid extension      15      31      18
+          9                         Kataraza HC III HC III    Kyenjojo         No 15011 -0.39     6.04 solar + battery      33      11      59
+         10                             Kerwa HC II  HC II       Yumbe   Off-grid 32715 -0.07     0.10  grid extension       2      51       6
+         11                         Busamuzi HC III HC III      Buvuma   Off-grid 13773 -0.49    10.51 solar + battery      43      15      36
+         12                           Alanyi HC III HC III    Alebtong   Off-grid 15074 -0.23     0.31  grid extension      48      10      72
+         13                           Migamba HC II  HC II    Kyegegwa   Off-grid 27781  0.12     0.02  grid extension       9      71       1
+         14                             Alwa HC III HC III Kaberamaido   Off-grid 12746 -0.48     0.08  grid extension      59      21      56
+         15                       Nyantaboma HC III HC III    Kabarole   Off-grid 13645 -0.26     4.60  grid extension      64      17      67
+         16                      Oje Mission HC III HC III        Arua   Off-grid 16153  0.24     0.26  grid extension      82       7      61
+         17                            Gisozi HC II  HC II      Kisoro         No 26432 -0.40     0.07  grid extension       3      81       5
+         18                          Pokwero HC III HC III     Pakwach   Off-grid 13787 -0.31     6.60 solar + battery      57      14     104
+         19                         Nansololo HC II  HC II      Kaliro         No 26233 -0.13     0.02  grid extension       7      82       3
+         20                          Kasenda HC III HC III    Kabarole   Off-grid 16074  0.36     0.01  grid extension      99       8      48
