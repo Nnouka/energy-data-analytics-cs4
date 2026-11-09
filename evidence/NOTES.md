@@ -48,3 +48,11 @@ Screenshots 07, 08.
 - Base plan (final 2-3-1 ranking): 25 facilities, ~511k people (pop field), USD 896k, USD 1.75/person; regions C4/E3/N9/W9.
 - Lens-only plans: poorest 49 fac / 940k people; births 23 / 344k; regional 49 / 929k; pure value-for-money 68 / 1.18M (USD 0.76/person).
 - Sensitivity: cost x0.5 -> 54 fac; x0.75 -> 36; x1.5 -> 17; x2 -> 12; grid routes at 50% -> 42; reserve 20% -> 20.
+
+## Explorer-run analysis (saved + exported)
+- Config: layers = Health facilities (status filter: No + Off-grid only), Population Count, Relative Wealth Index, Nighttime Lights (demand); Global Horizontal Irradiation, Distribution Lines, Planned Distribution Lines, Operating Transmission Lines (supply). Analysis area = District, index = Assistance Need Index. Default layer weights/ranges (not tuned).
+- Saved to My EAE as "CS4 Uganda Health Facility Electrification - District Assistance Need (No/Off-grid, demand+supply)". Shareable link: explorer-export/shareable_link.txt (https://www.energyaccessexplorer.org/tool/p?1794202549817; viewers may need permissions).
+- Export zip (user-downloaded): explorer-export/202611090737-eae-export.zip, unzipped to explorer-export/unzipped/: eae-summary.pptx, eae-assistance-need-index-map.tif, eae-assistance-need-index-high-priority-areas.csv (146 districts with per-layer values), eae-population-area-share.csv.
+- Explorer top-10 districts (ANI): Kalangala, Wakiso, Lamwo, Karenga, Buvuma, Amuru, Kaabong, Amudat, Isingiro, Kasese. Overlap with our facility-based top-10 districts: Isingiro, Kasese (Buvuma appears in our budget plan).
+- Population in "high" Assistance Need districts: 1,351,791 people; medium-high 18.8M.
+- Screenshots 09-14 document the steps. The ANI district CSV has no facility-level fields.
