@@ -1,0 +1,9 @@
+scenario,facilities,people,cost_per_person,overlap_with_base_plan,solar_route,n_Central,n_Eastern,n_Northern,n_Western
+cost x0.5,54,968173,0.93,25,9,8,6,20,20
+cost x0.75,36,702912,1.28,25,7,4,5,14,13
+BASE,25,511172,1.75,25,5,4,3,9,9
+cost x1.5,17,366106,2.42,17,4,3,3,6,5
+cost x2,12,260353,3.41,12,4,3,1,5,3
+grid-route facilities at 50% cost,42,795212,1.13,25,8,5,6,14,17
+maintenance reserve 20%,20,400497,1.97,20,5,3,3,8,6
+no reserve,27,524854,1.9,24,6,3,4,11,9

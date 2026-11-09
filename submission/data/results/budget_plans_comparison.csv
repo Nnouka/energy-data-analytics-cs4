@@ -1,0 +1,6 @@
+plan,facilities,spent,people_reached,births_idx,poor_people_idx,cost_per_person,avg_cost,grid_route,solar_route,n_Central,n_Eastern,n_Northern,n_Western
+FINAL (2P+3B+1R),25,896132,511172,333261,382463,1.75,35845,20,5,4,3,9,9
+Lens P: poorest,49,897583,939914,352596,723009,0.95,18318,41,8,7,7,16,19
+Lens B: births,23,895232,343866,382790,247026,2.6,38923,17,6,3,1,13,6
+Lens R: regional,49,897583,928792,350796,699549,0.97,18318,41,8,13,12,12,12
+Value for money (pop per USD),68,892346,1178079,339989,876807,0.76,13123,57,11,8,10,29,21
